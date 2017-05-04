@@ -6,17 +6,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 
 public class SiteVerification {
-	private List<String>urlAdress=new ArrayList<>();
+	private HashSet<String>urlAdress=new HashSet<>();
 	
 	public SiteVerification() {
 		super();		
 	}
 
-	public List<String> getUrlAdress() {
+	public HashSet<String> getUrlAdress() {
 		return urlAdress;
 	}
 
